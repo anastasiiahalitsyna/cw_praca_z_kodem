@@ -1,0 +1,15 @@
+name: Checking the version and testing the Python file.
+
+on: push
+jobs:
+  version-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: python--version
+  testing-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: pylint app.py
+ 
