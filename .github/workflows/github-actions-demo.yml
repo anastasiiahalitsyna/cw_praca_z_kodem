@@ -16,5 +16,5 @@ jobs:
       - name: print dir
         run: pwd
       - name: Running Pylint...
-        run: pylint ./../app.py
+        run: pylint app.py
  
