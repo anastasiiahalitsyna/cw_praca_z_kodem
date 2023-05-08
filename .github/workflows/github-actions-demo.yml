@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Installing Pylint...
         run: pip install pylint
+      - name: print dir
+        run: pwd
       - name: Running Pylint...
         run: pylint app.py
  
