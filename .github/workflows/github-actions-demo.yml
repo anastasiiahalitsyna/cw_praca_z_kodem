@@ -5,11 +5,11 @@ jobs:
   version-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run: python--version
+      - name: Printing the Python version...
+        run: python --version
   testing-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
+      - name: Running Pylint...
         run: pylint app.py
  
