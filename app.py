@@ -6,6 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    """Returning simple html element."""
     return '<h1>Hello WSB! Greetings from Flask!</h1>'
 
 
